@@ -5,21 +5,70 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Career Summary</title>
+        <title>HW2 Hobbies Summary</title>
 
         <style>
             body {
+                margin: auto;
                 background-color: black;
                 font-family: Arial, Helvetica, sans-serif;
                 color: azure;
+            }
+            p {
+                text-align: center;
+            }
+            img {
+                width: 100px;
+            }
+            li {
+                padding: 10px;
+            }
+            .fragment {
+                padding: 5px;
+                font-size: large;
+            }
+            .list_container {
+                display: flex;
+                justify-content: center;
             }
         </style>
     </head>
 
     <body>
         <header>
-            <h1>This is the Interests and Hobbies Page!</h1>
+            <h1 style="color: green; text-align: center;">This is the Interests and Hobbies Page!</h1>
         </header>
+        <main>
+            <p>
+                My current hobbies are just playing videogames, playing some music, and coding
+            </p>
+            <div class="list_container">
+                <ol>
+                    <li>
+                        Videogames:
+                        <ul>
+                            <li>RuneScape <a href="https://www.oldschool.runescape.com/" target="_blank"><img src="./logos/osrs_logo.webp" alt="Runescape Logo"></a></li>
+                            <li>NorthGuard <a href="https://store.steampowered.com/app/466560/Northgard/" target="_blank"><img src="./logos/northgard_logo.webp" alt="Northgard Logo"></a></li>
+                            <li>Roblox <a href="https://www.roblox.com/" target="_blank"><img src="./logos/roblox_logo_old.png" alt="Roblox Logo" width="10px"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Music Instruments I Play:
+                        <ul>
+                            <li>The Piano</li>
+                            <li>The Violin</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </main>
+        <footer>
+            <p>
+                <a href="../index.html" class="fragment">Home</a>
+                <a href="../career/index.html" class="fragment">Career Summary</a>
+                <a href="../education/index.html" class="fragment">Education and Qualifications</a>
+            </p>
+        </footer>
     </body>
 
 </html>

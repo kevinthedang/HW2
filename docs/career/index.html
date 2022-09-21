@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Career Summary</title>
+        <title>HW2 Career Summary</title>
 
         <style>
             body {
@@ -13,13 +13,71 @@
                 font-family: Arial, Helvetica, sans-serif;
                 color: azure;
             }
+            p {
+                text-align: center;
+            }
+            img {
+                width: 200px;
+            }
+            td {
+                text-align: end;
+                padding-right: 35px;
+            }
+            table {
+                margin: auto;
+                padding: 10px;
+            }
+            .fragment {
+                padding: 5px;
+                font-size: large;
+            }
         </style>
     </head>
 
     <body>
         <header>
-            <h1>This is the Career Summary Page!</h1>
+            <h1 style="color: green; text-align: center;">This is the Career Summary Page!</h1>
         </header>
+        <main>
+            <table>
+                <caption><strong>Work Experience</strong></caption>
+                <tr>
+                    <td><a href="https://www.nordstrom.com/" target="_blank">Nordstrom</a></td>
+                    <td>Customer Service</td>
+                    <td>June 2022 - August 2022</td>
+                    <td>Mission Viejo, CA</td>
+                    <td><img src="./logos/nordstrom_logo.jpg" alt="Nordstrom Logo"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.islandsrestaurants.com/" target="_blank">Islands: Fine Burgers & Drinks</a></td>
+                    <td>Host, Busser</td>
+                    <td>May 2022 - June 2022</td>
+                    <td>Carlsbad, CA</td>
+                    <td><img src="./logos/islands_logo.jpg" alt="Islands Logo"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.hilton.com/en/hotels/sanmbgv-hilton-grand-vacations-club-marbrisa-carlsbad/" target="_blank">Hilton Grand Vacations at MarBrisa</a></td>
+                    <td>House Attendant</td>
+                    <td>May 2021 - July 2021</td>
+                    <td>Carlsbad, CA</td>
+                    <td><img src="./logos/hilton_logo.png" alt="Hilton Grand Logo"></td>
+                </tr>
+                <tr>
+                    <td><a href="https://reataglen.com/" target="_blank">Reata Glen</a></td>
+                    <td>Server, Runner, Busser</td>
+                    <td>October 2019 - July 2020</td>
+                    <td>Rancho Mission Viejo, CA</td>
+                    <td><img src="./logos/reata_logo.png" alt="Reata Glen Logo"></td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <p>
+                <a href="../index.html" class="fragment">Home</a>
+                <a href="../education/index.html" class="fragment">Education and Qualifications</a>
+                <a href="../hobbies/index.html" class="fragment">Interests and Hobbies</a>
+            </p>
+        </footer>
     </body>
 
 </html>

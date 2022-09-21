@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Career Summary</title>
+        <title>HW2 Education Summary</title>
 
         <style>
             body {
@@ -13,13 +13,88 @@
                 font-family: Arial, Helvetica, sans-serif;
                 color: azure;
             }
+            table {
+                margin: auto;
+                padding: 10px;
+            }
+            td {
+                text-align: end;
+                padding-right: 35px;
+            }
+            h1, p {
+                text-align: center;
+            }
+            img {
+                width: 150px;
+            }
+            #fragment {
+                padding: 5px;
+                font-size: large;
+            }
         </style>
     </head>
 
     <body>
         <header>
-            <h1>This is the Education and Qualifications Page!</h1>
+            <h1 style="color: green;">This is the Education and Qualifications Page!</h1>
         </header>
+        <main>
+            <table>
+                <caption><strong>Education</strong></caption>
+                <tr>
+                    <td>Primary Education:</td>
+                    <td><a href="https://www.oside.us/ivey" target="_blank">Ivey Ranch Elementary School</a></td>
+                    <td>Oceanside, CA</td>
+                    <td><img src="./logos/iveyranch_logo.jpg" alt="Ivey Ranch Logo"></td>
+                </tr>
+                <tr>
+                    <td>Secondary Education:</td>
+                    <td><a href="https://www.jserra.org/" target="_blank">JSerra Catholic High School</a></td>
+                    <td>San Juan Capistrano, CA</td>
+                    <td><img src="./logos/jserra_logo.png" alt="JSerra Logo"></td>
+                </tr>
+                <tr>
+                    <td>College Education:</td>
+                    <td><a href="https://www.gonzaga.edu/" target="_blank">Gonzaga University</a></td>
+                    <td>Spokane, WA</td>
+                    <td><img src="./logos/gu_logo.png" alt="Gonzaga Logo"></td>
+                </tr>
+            </table>
+            <table>
+                <caption><strong>Work Experience</strong></caption>
+                <tr>
+                    <td>Reata Glen</td>
+                    <td>Server, Runner, Busser</td>
+                    <td>Rancho Mission Viejo, CA</td>
+                    <td><img src="./logos/reata_logo.png" alt="Reata Glen Logo"></td>
+                </tr>
+                <tr>
+                    <td>Hilton Grand Vacations at MarBrisa</td>
+                    <td>House Attendant</td>
+                    <td>Carlsbad, CA</td>
+                    <td><img src="./logos/hilton_logo.png" alt="Hilton Grand Logo"></td>
+                </tr>
+                <tr>
+                    <td>Islands: Fine Burgers & Drinks</td>
+                    <td>Host, Busser</td>
+                    <td>Carlsbad, CA</td>
+                    <td><img src="./logos/islands_logo.jpg" alt="Islands Logo"></td>
+                </tr>
+                <tr>
+                    <td>Nordstrom</td>
+                    <td>Customer Service</td>
+                    <td>Mission Viejo, CA</td>
+                    <td><img src="./logos/nordstrom_logo.jpg" alt="Nordstrom Logo"></td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <p>
+                <a href="../index.html" id="fragment">Home</a>
+                <a href="../career/index.html" id="fragment">Career Summary</a>
+                <a href="../hobbies/index.html" id="fragment">Interests and Hobbies</a>
+            </p>
+        </footer>
     </body>
 
 </html>
